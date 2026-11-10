@@ -1,0 +1,5 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+<rect width="800" height="600" fill="#fbf7f1"/>
+<circle cx="400" cy="300" r="120" fill="#f4a64e" stroke="#b26124" stroke-width="8"/>
+<text x="400" y="470" font-size="40" text-anchor="middle" fill="#b26124">chrome headless ok</text>
+</svg>

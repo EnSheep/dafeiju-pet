@@ -1,0 +1,45 @@
+# ---- 依赖 ----
+node_modules/
+.pnpm-store/
+
+# ---- 构建产物 ----
+plugin/lib/
+plugin/dist/
+*.tsbuildinfo
+
+# ---- 本地模型与 Python 环境（约 12 GB，不进仓库）----
+.qwen-tts/
+*.safetensors
+*.gguf
+
+# ---- 个人数据（绝不入库）----
+# 参考音色样本：含真实人声，属于隐私
+samples/
+voice-cache/
+*.mp3
+*.wav
+memory.json
+memory.db
+memory.db-shm
+memory.db-wal
+_tts_probe.*
+tts-server.log
+asr-server.log
+logs.txt
+
+# ---- 生成素材（体积大，按需本地生成）----
+out/
+plugin/assets/preview/
+
+# ---- torch 编译缓存 ----
+torchinductor_*/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.bak
+*.bak-*
+_backup-*/
+.dsh-office-*/
