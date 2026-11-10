@@ -1,4 +1,4 @@
-# 把 cat-pet 发布到 GitHub
+﻿# 把 cat-pet 发布到 GitHub
 #
 # 用法（在 cat-pet 目录下执行）：
 #   powershell -ExecutionPolicy Bypass -File .\publish-to-github.ps1 -Token <你的PAT>
